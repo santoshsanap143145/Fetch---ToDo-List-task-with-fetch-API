@@ -214,6 +214,7 @@ const removeTodo = async (ele) => {
 const todoFormHandler = () => {
   backDrop.classList.toggle("active");
   formBlock.classList.toggle("active");
+  toDoForm.reset()
 };
 filter.addEventListener("change", filteredToDoList);
 showFormBtn.addEventListener("click", todoFormHandler);
